@@ -1,0 +1,16 @@
+﻿<h2>ShowAllWorker</h2>
+
+@{
+    foreach (var employee in Model)
+    {
+        <h2>
+            @employee.firstName
+            @employee.lastName
+            @employee.dateOfBirth
+            @employee.phone
+
+        </h2>
+    }
+}
+
+

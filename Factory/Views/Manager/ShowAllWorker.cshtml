@@ -1,0 +1,15 @@
+﻿<h2>ShowAllWorker</h2>
+
+@{
+    foreach (var workers in Model)
+    {
+        <div>
+            <h3>firstName:@workers.firstName </h3> 
+            <h3>lastName: @workers.lastName</h3>
+            <h3>department:@workers.department</h3>
+
+        </div>
+    }
+}
+
+
